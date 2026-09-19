@@ -1,0 +1,44 @@
+# 产物仓自己的发布 workflow：主仓 CI 把 manifest + tar.gz 推上来后，
+# 由这里用**本仓自带的 GITHUB_TOKEN** 建 release —— 全程不需要任何跨仓令牌。
+# --latest=true 保证客户端那句 releases/latest/download/... 永远指向最新发布。
+name: publish
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 读 manifest
+        id: m
+        run: |
+          set -euo pipefail
+          if [ ! -f ui-manifest.json ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          V=$(jq -r .version ui-manifest.json)
+          F=$(jq -r .file ui-manifest.json)
+          N=$(jq -r '.notes // ("UI " + .version + " 构建于 " + .builtAt)' ui-manifest.json | tr '\n' ' ')
+          { echo "skip=false"; echo "version=$V"; echo "file=$F"; echo "notes=$N"; } >> "$GITHUB_OUTPUT"
+
+      - name: 建或更新 release
+        if: steps.m.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          V="${{ steps.m.outputs.version }}"
+          F="${{ steps.m.outputs.file }}"
+          test -f "$F" || { echo "!! manifest 指向的 $F 不在仓库里" >&2; exit 1; }
+          if gh release view "v$V" >/dev/null 2>&1; then
+            gh release upload "v$V" "$F" ui-manifest.json --clobber
+            gh release edit "v$V" --latest
+          else
+            gh release create "v$V" "$F" ui-manifest.json --title "ui $V" --latest=true --notes "${{ steps.m.outputs.notes }}"
+          fi
+          echo "就绪: https://github.com/$GITHUB_REPOSITORY/releases/latest/download/ui-manifest.json"
