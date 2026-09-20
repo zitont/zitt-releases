@@ -1,8 +1,8 @@
 {
   "version": "0.1.1",
   "file": "ui-0.1.1.tar.gz",
-  "sha256": "首个 UI 热更新包（v0.1.1）",
-  "notes": "7b520498ecd4ada126ce9ff7041ee73797fd8503df715d6a9199db193efcedb3",
-  "builtAt": "2026-09-20T01:47:01.652Z",
-  "sourceCommit": "d150b41493ebc90056bf3a76a67125217a77717d"
+  "sha256": "a8e366159235a2d2b1d84f5a7c9b6b856a603c1f9a1d8d2814696c9b430f4bb8",
+  "notes": "首个 UI 热更新包（v0.1.1）",
+  "builtAt": "2026-09-20T01:50:51.153Z",
+  "sourceCommit": "4c13f6c772bc71c35cb8470f313689282695a9ec"
 }
