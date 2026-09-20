@@ -30,15 +30,20 @@ jobs:
         if: steps.m.outputs.skip == 'false'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 清单里的 notes 是人在 dispatch 时敲的自由文本：经 env 传给 shell，
+          # 不嵌进 run 脚本体，免得一段引号就把脚本改了。
+          VER: ${{ steps.m.outputs.version }}
+          FILE: ${{ steps.m.outputs.file }}
+          NOTES: ${{ steps.m.outputs.notes }}
         run: |
           set -euo pipefail
-          V="${{ steps.m.outputs.version }}"
-          F="${{ steps.m.outputs.file }}"
-          test -f "$F" || { echo "!! manifest 指向的 $F 不在仓库里" >&2; exit 1; }
-          if gh release view "v$V" >/dev/null 2>&1; then
-            gh release upload "v$V" "$F" ui-manifest.json --clobber
-            gh release edit "v$V" --latest
+          test -f "$FILE" || { echo "!! manifest 指向的 $FILE 不在仓库里" >&2; exit 1; }
+          if gh release view "v$VER" >/dev/null 2>&1; then
+            # 同号重发（主仓勾 force 修坏包/坏清单）时，光覆盖资产不够，
+            # 正文也得跟着新清单走，否则坏那次的说明会一直挂在 release 页上。
+            gh release upload "v$VER" "$FILE" ui-manifest.json --clobber
+            gh release edit "v$VER" --latest --notes "$NOTES"
           else
-            gh release create "v$V" "$F" ui-manifest.json --title "ui $V" --latest=true --notes "${{ steps.m.outputs.notes }}"
+            gh release create "v$VER" "$FILE" ui-manifest.json --title "ui $VER" --latest=true --notes "$NOTES"
           fi
           echo "就绪: https://github.com/$GITHUB_REPOSITORY/releases/latest/download/ui-manifest.json"
