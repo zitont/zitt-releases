@@ -1,8 +1,8 @@
 {
-  "version": "0.1.2",
-  "file": "ui-0.1.2.tar.gz",
-  "sha256": "6d46f7ef8335730ed650afe3a7c1963ad7107476aee6d3f915e3cc794e1e2d45",
-  "notes": "回收站恢复可续期 + 配额方案删除拦截 + 桌面更新进度横幅",
-  "builtAt": "2026-09-20T13:37:49.319Z",
-  "sourceCommit": "42128b4b60f255c1276e467c2d77fd4a5b15157a"
+  "version": "0.1.3",
+  "file": "ui-0.1.3.tar.gz",
+  "sha256": "d8a68037f10e555a0184b5365e699b58009f3fd2c6ce3fad4dba8cf68ab53751",
+  "notes": "",
+  "builtAt": "2026-09-21T01:54:22.504Z",
+  "sourceCommit": "0b315995f754dce2923f7a049863e58e0a02e59d"
 }
