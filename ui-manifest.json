@@ -1,8 +1,8 @@
 {
-  "version": "0.1.3",
-  "file": "ui-0.1.3.tar.gz",
-  "sha256": "d8a68037f10e555a0184b5365e699b58009f3fd2c6ce3fad4dba8cf68ab53751",
-  "notes": "",
-  "builtAt": "2026-09-21T01:54:22.504Z",
-  "sourceCommit": "0b315995f754dce2923f7a049863e58e0a02e59d"
+  "version": "0.2.0",
+  "file": "ui-0.2.0.tar.gz",
+  "sha256": "7aee53ce4f0b453fe82ddb4a931cec649abbb5e9c53613eb7a120ac1543c6361",
+  "notes": "v0.2.0：成员登记门槛改由『系统设置』页开关控制；门户支持查询即登记、记住/显示密钥；成员详情新增登记设备取证视图",
+  "builtAt": "2026-09-23T03:42:04.686Z",
+  "sourceCommit": "43963628d04e4f624f3c5ff9b125a6c23dbe24a7"
 }
