@@ -1,8 +1,8 @@
 {
-  "version": "0.2.0",
-  "file": "ui-0.2.0.tar.gz",
-  "sha256": "7aee53ce4f0b453fe82ddb4a931cec649abbb5e9c53613eb7a120ac1543c6361",
-  "notes": "v0.2.0：成员登记门槛改由『系统设置』页开关控制；门户支持查询即登记、记住/显示密钥；成员详情新增登记设备取证视图",
-  "builtAt": "2026-09-23T03:42:04.686Z",
-  "sourceCommit": "43963628d04e4f624f3c5ff9b125a6c23dbe24a7"
+  "version": "0.3.0",
+  "file": "ui-0.3.0.tar.gz",
+  "sha256": "5698e5b70bc4e68b156e9b771ed409e9bf47096651d6524d752960c0cadfe92c",
+  "notes": "通道编辑页可设对上游自限流 rpm/tpm；路由组内通道权重可编辑；审计来源新增 system 并单独配色",
+  "builtAt": "2026-09-24T01:05:37.264Z",
+  "sourceCommit": "bf3eb23e549b5d4c80d78f0f1a7db5f1344e0979"
 }
