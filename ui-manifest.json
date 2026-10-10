@@ -1,8 +1,8 @@
 {
-  "version": "0.3.0",
-  "file": "ui-0.3.0.tar.gz",
-  "sha256": "5698e5b70bc4e68b156e9b771ed409e9bf47096651d6524d752960c0cadfe92c",
-  "notes": "通道编辑页可设对上游自限流 rpm/tpm；路由组内通道权重可编辑；审计来源新增 system 并单独配色",
-  "builtAt": "2026-09-24T01:05:37.264Z",
-  "sourceCommit": "bf3eb23e549b5d4c80d78f0f1a7db5f1344e0979"
+  "version": "0.4.0",
+  "file": "ui-0.4.0.tar.gz",
+  "sha256": "939672db836d0c51c947387e5674d150129321a946e8cbd5c74c36b5cf2cec89",
+  "notes": "控制台更新：通道详情新增月度 token 预算、对外名与隐去真名、名称/上游地址/等头超时编辑、Responses 承接勾选与探测；新增数据维护面板可手动重置运行数据。",
+  "builtAt": "2026-10-10T15:01:53.604Z",
+  "sourceCommit": "acec0381338c27cf73f1e800dc62b660238d870c"
 }
