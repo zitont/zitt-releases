@@ -1,8 +1,8 @@
 {
-  "version": "0.4.0",
-  "file": "ui-0.4.0.tar.gz",
-  "sha256": "939672db836d0c51c947387e5674d150129321a946e8cbd5c74c36b5cf2cec89",
-  "notes": "控制台更新：通道详情新增月度 token 预算、对外名与隐去真名、名称/上游地址/等头超时编辑、Responses 承接勾选与探测；新增数据维护面板可手动重置运行数据。",
-  "builtAt": "2026-10-10T15:01:53.604Z",
-  "sourceCommit": "acec0381338c27cf73f1e800dc62b660238d870c"
+  "version": "0.4.1",
+  "file": "ui-0.4.1.tar.gz",
+  "sha256": "e95212d8d996b49e93ad7623f8302c04c5285d4434bb1f63c45112292e0673cd",
+  "notes": "",
+  "builtAt": "2026-10-11T16:46:29.591Z",
+  "sourceCommit": "b9767acbee6ae3950bc175d48f96be99f0ca2bd5"
 }
