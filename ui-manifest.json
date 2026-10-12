@@ -1,8 +1,8 @@
 {
-  "version": "0.4.1",
-  "file": "ui-0.4.1.tar.gz",
-  "sha256": "e95212d8d996b49e93ad7623f8302c04c5285d4434bb1f63c45112292e0673cd",
-  "notes": "",
-  "builtAt": "2026-10-11T16:46:29.591Z",
-  "sourceCommit": "b9767acbee6ae3950bc175d48f96be99f0ca2bd5"
+  "version": "0.4.4",
+  "file": "ui-0.4.4.tar.gz",
+  "sha256": "04cf937e793992a5e3740342a4adf9f372da0a928d1d2fd3e6210a3c8bc4e727",
+  "notes": "通道详情一屏只留高频三项，低频项（自限流 RPM/TPM、容灾链、月度预算等）收进默认收起的「更多设置」；解释性文字移入悬停 title，一行只剩一项。",
+  "builtAt": "2026-10-12T11:01:26.916Z",
+  "sourceCommit": "262401191cdc8e489793270c6db5a56088083ae9"
 }
