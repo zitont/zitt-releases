@@ -1,8 +1,8 @@
 {
-  "version": "0.4.5",
-  "file": "ui-0.4.5.tar.gz",
-  "sha256": "a43496baed0f904fbf59198c3555309d88ad844370b869bd693286c982ab87a4",
-  "notes": "通道页改版：按渠道类型分地址、列表只显示延迟/速度/吞吐、窄屏单行重排；概览「模型调用分布」只计转发调用；导航分组重划与命令面板 Ctrl+K；全站表格信息层次统一。",
-  "builtAt": "2026-10-31T13:55:27.235Z",
-  "sourceCommit": "4f852da56ec16610d3f9a73ee81adaf0db80ed66"
+  "version": "0.4.6",
+  "file": "ui-0.4.6.tar.gz",
+  "sha256": "2ee9c1d2ef275ca8e4f1f59973759d4cf17f03e9060db63a3069b1008f596b27",
+  "notes": "",
+  "builtAt": "2026-11-02T18:40:53.964Z",
+  "sourceCommit": "b48292085b56d3daf7009a64e18d69ce19edb1dc"
 }
