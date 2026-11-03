@@ -1,8 +1,8 @@
 {
-  "version": "0.4.6",
-  "file": "ui-0.4.6.tar.gz",
-  "sha256": "2ee9c1d2ef275ca8e4f1f59973759d4cf17f03e9060db63a3069b1008f596b27",
+  "version": "0.4.7",
+  "file": "ui-0.4.7.tar.gz",
+  "sha256": "300502d05edf36b82877b923fb10289875a26bdbbf98b98a7114cb7b71405a02",
   "notes": "",
-  "builtAt": "2026-11-02T18:40:53.964Z",
-  "sourceCommit": "b48292085b56d3daf7009a64e18d69ce19edb1dc"
+  "builtAt": "2026-11-03T05:55:23.864Z",
+  "sourceCommit": "5df87865dea16e3b14fa744d053b2149082c1bcb"
 }
