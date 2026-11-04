@@ -1,8 +1,8 @@
 {
-  "version": "0.4.7",
-  "file": "ui-0.4.7.tar.gz",
-  "sha256": "300502d05edf36b82877b923fb10289875a26bdbbf98b98a7114cb7b71405a02",
-  "notes": "",
-  "builtAt": "2026-11-03T05:55:23.864Z",
-  "sourceCommit": "5df87865dea16e3b14fa744d053b2149082c1bcb"
+  "version": "0.4.8",
+  "file": "ui-0.4.8.tar.gz",
+  "sha256": "9164f2093aa9adf542602437f1c6438892a0abf04d8269dfc0699e10a33542b6",
+  "notes": "额度包(用量包)：方案类型切换、成员详情包卡与进度条、列表包格、发放/作废；万系数字口径",
+  "builtAt": "2026-11-04T11:59:41.010Z",
+  "sourceCommit": "6494f4c39e8ba2ea484e9f8caaa84a1e4541d2e2"
 }
