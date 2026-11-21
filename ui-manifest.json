@@ -1,8 +1,8 @@
 {
-  "version": "0.4.13",
-  "file": "ui-0.4.13.tar.gz",
-  "sha256": "9ce6a82e04b13e44ab35034bd71258f0743719f7714dea53a95c20b163af0e0d",
-  "notes": "手动点「检查更新」无新版本时改为弹窗回执：当前已是最新版本(含版本号)，不点不消失",
-  "builtAt": "2026-11-05T12:32:08.765Z",
-  "sourceCommit": "3842c1625727dae6364cde81e1d539b98f622ebd"
+  "version": "0.4.16",
+  "file": "ui-0.4.16.tar.gz",
+  "sha256": "b9b7b091401779ae177eb985cde61c8ed3ee23b991c1303e658a4b59a72e4065",
+  "notes": "成员模型授权：allow 收敛白名单与生效模型展示修正（v0.4.16）",
+  "builtAt": "2026-11-21T10:20:53.819Z",
+  "sourceCommit": "ab2b3bbb9e0e453a5bff58411fb18aa1b5b36501"
 }
