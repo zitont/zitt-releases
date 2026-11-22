@@ -1,8 +1,8 @@
 {
-  "version": "0.4.16",
-  "file": "ui-0.4.16.tar.gz",
-  "sha256": "b9b7b091401779ae177eb985cde61c8ed3ee23b991c1303e658a4b59a72e4065",
-  "notes": "成员模型授权：allow 收敛白名单与生效模型展示修正（v0.4.16）",
-  "builtAt": "2026-11-21T10:20:53.819Z",
-  "sourceCommit": "ab2b3bbb9e0e453a5bff58411fb18aa1b5b36501"
+  "version": "0.4.17",
+  "file": "ui-0.4.17.tar.gz",
+  "sha256": "711c6e8ba7f53930901584d961dc48424c1503ef71a096e210e193427142d555",
+  "notes": "壳层导航重设计：桌面侧栏扁平化、窄屏顶部下拉、Ctrl+数字快捷跳转（v0.4.17）",
+  "builtAt": "2026-11-22T06:15:53.672Z",
+  "sourceCommit": "40eff379f90d856d097188ea7fcfa1710428f8e2"
 }
