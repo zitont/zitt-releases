@@ -1,8 +1,8 @@
 {
-  "version": "0.4.17",
-  "file": "ui-0.4.17.tar.gz",
-  "sha256": "711c6e8ba7f53930901584d961dc48424c1503ef71a096e210e193427142d555",
-  "notes": "壳层导航重设计：桌面侧栏扁平化、窄屏顶部下拉、Ctrl+数字快捷跳转（v0.4.17）",
-  "builtAt": "2026-11-22T06:15:53.672Z",
-  "sourceCommit": "40eff379f90d856d097188ea7fcfa1710428f8e2"
+  "version": "0.4.18",
+  "file": "ui-0.4.18.tar.gz",
+  "sha256": "f4106f879c44f4069cffd4dd17f8f39ce3849ed95636b9d635513b4b5ab80584",
+  "notes": "日志显示成员具体客户端（Claude Code/Codex/OpenCode/官方SDK等）；空模型请求不进模型榜（0.4.18）",
+  "builtAt": "2026-11-22T07:51:19.668Z",
+  "sourceCommit": "eed04fa2490ff19f29766d238e4abf41910fa773"
 }
