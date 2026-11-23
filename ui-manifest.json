@@ -1,8 +1,8 @@
 {
-  "version": "0.4.18",
-  "file": "ui-0.4.18.tar.gz",
-  "sha256": "f4106f879c44f4069cffd4dd17f8f39ce3849ed95636b9d635513b4b5ab80584",
-  "notes": "日志显示成员具体客户端（Claude Code/Codex/OpenCode/官方SDK等）；空模型请求不进模型榜（0.4.18）",
-  "builtAt": "2026-11-22T07:51:19.668Z",
-  "sourceCommit": "eed04fa2490ff19f29766d238e4abf41910fa773"
+  "version": "0.4.19",
+  "file": "ui-0.4.19.tar.gz",
+  "sha256": "d1dfb0d07ad0dcaf3be9b4ead5712c0480d49389e2c31c46e204ac641a6c269d",
+  "notes": "v0.4.19: 按模型名唯一定价 + DeepSeek 闲时价格 + $/¥ 切换 + 缓存命中口径",
+  "builtAt": "2026-11-23T11:32:38.718Z",
+  "sourceCommit": "44e255edf5692148c5647511e12dbe5d960f0fe9"
 }
