@@ -1,8 +1,8 @@
 {
-  "version": "0.4.19",
-  "file": "ui-0.4.19.tar.gz",
-  "sha256": "d1dfb0d07ad0dcaf3be9b4ead5712c0480d49389e2c31c46e204ac641a6c269d",
-  "notes": "v0.4.19: 按模型名唯一定价 + DeepSeek 闲时价格 + $/¥ 切换 + 缓存命中口径",
-  "builtAt": "2026-11-23T11:32:38.718Z",
-  "sourceCommit": "44e255edf5692148c5647511e12dbe5d960f0fe9"
+  "version": "0.4.20",
+  "file": "ui-0.4.20.tar.gz",
+  "sha256": "649cc25a07284e8c5674c70b0a28cc9c6fd54a1340dbb81948f693acf89c2f47",
+  "notes": "v0.4.20: 定价软删除 + 日志成本 $/¥ 切换 + 门户 token k/M/B 自适应",
+  "builtAt": "2026-11-23T13:06:10.429Z",
+  "sourceCommit": "e1931a93b5a8c8cd91de11f7f2ae55277acc0521"
 }
