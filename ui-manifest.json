@@ -1,8 +1,8 @@
 {
-  "version": "0.4.22",
-  "file": "ui-0.4.22.tar.gz",
-  "sha256": "fd46dcd1d40f23fb73eebb2d65345a338909c4e9f3c92cf9a271aa6b5d6f7137",
-  "notes": "v0.4.22：金额预算配额、成员冻结、状态胶囊配色、成本$/¥切换；逐包文字随后端发布",
-  "builtAt": "2026-11-24T08:14:20.457Z",
-  "sourceCommit": "6659e8011264dcf3ec4f0dfa5cd98c764ae3c5d7"
+  "version": "0.4.24",
+  "file": "ui-0.4.24.tar.gz",
+  "sha256": "1e6d6573a26a8f526d6480fae0dcb3fae41538d51b053f19a0110e4fc89f6365",
+  "notes": "v0.4.24：成员多方案叠加（有效期/永久、各发各包）+ 缓存命中率 Anthropic 口径 + 成本$/¥切换",
+  "builtAt": "2026-11-24T11:36:33.103Z",
+  "sourceCommit": "841bfcff6981006fe551050dfd7d3277fdd308db"
 }
