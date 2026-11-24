@@ -1,8 +1,8 @@
 {
-  "version": "0.4.20",
-  "file": "ui-0.4.20.tar.gz",
-  "sha256": "649cc25a07284e8c5674c70b0a28cc9c6fd54a1340dbb81948f693acf89c2f47",
-  "notes": "v0.4.20: 定价软删除 + 日志成本 $/¥ 切换 + 门户 token k/M/B 自适应",
-  "builtAt": "2026-11-23T13:06:10.429Z",
-  "sourceCommit": "e1931a93b5a8c8cd91de11f7f2ae55277acc0521"
+  "version": "0.4.22",
+  "file": "ui-0.4.22.tar.gz",
+  "sha256": "fd46dcd1d40f23fb73eebb2d65345a338909c4e9f3c92cf9a271aa6b5d6f7137",
+  "notes": "v0.4.22：金额预算配额、成员冻结、状态胶囊配色、成本$/¥切换；逐包文字随后端发布",
+  "builtAt": "2026-11-24T08:14:20.457Z",
+  "sourceCommit": "6659e8011264dcf3ec4f0dfa5cd98c764ae3c5d7"
 }
