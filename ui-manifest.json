@@ -1,8 +1,8 @@
 {
   "version": "0.4.25",
   "file": "ui-0.4.25.tar.gz",
-  "sha256": "fbec6aee5431cde5706660e644957674bb516c56c423fc4f983e9cd3fe2e6e3a",
-  "notes": "缓存命中率按 CC Switch 口径跨协议归一化；成员成本标签修正为 USD。",
-  "builtAt": "2026-11-25T03:45:52.862Z",
+  "sha256": "d7f069ae12c0fdc052f0f816e35cc48a0bd398d3d71a5fa050bbb74920a5a9b7",
+  "notes": "Cache hit rate normalized across protocols; member cost label fixed to USD.",
+  "builtAt": "2026-11-25T03:48:25.200Z",
   "sourceCommit": "32b961c9ae31e497b90b0528865166f64ad516ed"
 }
