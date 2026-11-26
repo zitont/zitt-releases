@@ -1,8 +1,8 @@
 {
-  "version": "0.4.25",
-  "file": "ui-0.4.25.tar.gz",
-  "sha256": "d7f069ae12c0fdc052f0f816e35cc48a0bd398d3d71a5fa050bbb74920a5a9b7",
-  "notes": "Cache hit rate normalized across protocols; member cost label fixed to USD.",
-  "builtAt": "2026-11-25T03:48:25.200Z",
-  "sourceCommit": "32b961c9ae31e497b90b0528865166f64ad516ed"
+  "version": "0.4.30",
+  "file": "ui-0.4.30.tar.gz",
+  "sha256": "e0c2527b215f74fc109cab478e15dfae0a82bceafe5e3b32cc7d9e1c4f117665",
+  "notes": "链式跨通道流量分流与管理端编辑器",
+  "builtAt": "2026-11-26T16:23:59.488Z",
+  "sourceCommit": "38920ccca32130e22e14187ad7ede7930c57eb06"
 }
