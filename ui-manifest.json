@@ -1,8 +1,8 @@
 {
-  "version": "0.4.30",
-  "file": "ui-0.4.30.tar.gz",
-  "sha256": "e0c2527b215f74fc109cab478e15dfae0a82bceafe5e3b32cc7d9e1c4f117665",
-  "notes": "链式跨通道流量分流与管理端编辑器",
-  "builtAt": "2026-11-26T16:23:59.488Z",
-  "sourceCommit": "38920ccca32130e22e14187ad7ede7930c57eb06"
+  "version": "0.4.31",
+  "file": "ui-0.4.31.tar.gz",
+  "sha256": "4016998f5cf6c53bd33e421fd7845f0804694c72e9fcc6e21fce2345f87f2b73",
+  "notes": "跨通道分流支持直达目标通道与模型",
+  "builtAt": "2026-11-27T05:01:47.306Z",
+  "sourceCommit": "e2201c3f3d9ba636036026d7bef9558c64c49b2f"
 }
