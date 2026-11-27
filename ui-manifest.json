@@ -1,8 +1,8 @@
 {
-  "version": "0.4.31",
-  "file": "ui-0.4.31.tar.gz",
-  "sha256": "4016998f5cf6c53bd33e421fd7845f0804694c72e9fcc6e21fce2345f87f2b73",
-  "notes": "跨通道分流支持直达目标通道与模型",
-  "builtAt": "2026-11-27T05:01:47.306Z",
-  "sourceCommit": "e2201c3f3d9ba636036026d7bef9558c64c49b2f"
+  "version": "0.4.32",
+  "file": "ui-0.4.32.tar.gz",
+  "sha256": "59fc54d3bb1370159c94741e5daa73aafb4df704661ca62bfd44c36a2eb2c15b",
+  "notes": "PC 管理端重设计：导航、表格、表单、智能路由与响应式布局升级",
+  "builtAt": "2026-11-27T11:21:10.659Z",
+  "sourceCommit": "e697b5a3688e5c3ce80f5a441ee5a4c831cf7595"
 }
